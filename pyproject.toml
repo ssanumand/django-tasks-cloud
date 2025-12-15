@@ -1,6 +1,6 @@
 [project]
 name = "django-tasks-cloud"
-version = "0.1.0b1"
+version = "0.1.0b2"
 authors = [
   { name="Developers at PaperCloud Tech", email="developers@papercloud.tech" },
 ]

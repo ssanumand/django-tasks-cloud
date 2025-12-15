@@ -1,5 +1,10 @@
 # Django Task Backend for AWS and Azure
 
+[![Build and Push to PyPI (and Test PyPI for testing)](https://github.com/papercloudtech/django-tasks-cloud/actions/workflows/cd.yml/badge.svg)](https://github.com/papercloudtech/django-tasks-cloud/actions/workflows/cd.yml)
+
+> ❌ **IMPORTANT**
+> This project is in its early stages. While it is functional, it may not cover all edge cases or have comprehensive documentation. Use it at your own risk and feel free to contribute! We are working fast to make it production-ready.
+
 This project aims to use Django's new `Task` back-end to expose AWS and Azure native services to manage long-running tasks asynchronously. This project is useful for tasks that must run outside the request-response cycle, like sending emails, processing images, or running machine learning models. It leverages the power of AWS and Azure native services. You can choose between the two cloud providers (more on this in the installation and setup sections). With the reliance on cloud native services, the project provides a scalable and reliable solution for managing long-running tasks.
 
 ## Installation
